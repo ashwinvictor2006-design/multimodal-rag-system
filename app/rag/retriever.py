@@ -1,3 +1,4 @@
+from vector_store import text_collection, image_collection
 def retrieve(query):
     return [
         {
